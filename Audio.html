@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Sharanam/Audio-Player/vpplayer/css/vpplayer.css">
+    <style>
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-warning fixed-top ">
+    <div class="container">
+        <a href="../index.html" class="navbar-brand font-weight-bold">NBJ PRODUCTIONS</a>
+        <div class="collapse navbar-collapse" id="simpleNavbar" >
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item p-1">
+                    <a href="../index.html">Home</a>
+                </li>
+                <li class="nav-item p-1">
+                    <a href="../Making.html">Making</a>
+                </li>
+                <li class="nav-item p-1">
+                    <a href="../Audio.html" class="active">Audio</a>
+                </li>
+                <li class="nav-item p-1">
+                    <a href="../Youtube.html">Youtube</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Audio Description -->
+<h3 class="display-3 text-center ">Sharanam A Telugu Medley</h3>
+<!-- Audio File -->
+<div id="player" class="text-center mt-5"></div>
+
+<!-- Description -->
+<h3 class="display-4 ml-auto">Description</h3>
+<p class="lead text-center">
+
+    Audio Credits:
+<br>
+    <br>
+    Vocals:
+    <br>
+    Noel Rao - Rammanuchunnadu
+    <br>
+    Bharath Paul Sundar - Prema Yesuni Prema
+    <br>
+    Joel Rao - Idigo Deva
+    <br>
+    <br>
+    Music Programmed and Arranged - Enoch Jagan
+    <br>
+    Recorded, Mixed and Mastered at Enoch Jagan Studios
+    <br>
+    Live Flutes - Murthy
+    <br>
+    Rythms - Solomon Raj
+
+    <br>
+    <br>
+    Video Credits:
+    <br>
+    BreadButterJam Productions (Mumbai)
+    <br>
+    Directed By - Krishik Nair (BreadButterJam Productions)
+    <br>
+    Cinematography - Silvan Moses (BreadButterJam Productions)
+
+    <br>
+    <br>
+    In Video:
+    Noel Rao , Bharath Paul Sundar, Joel Rao, Tushar Kale (Drummer), Gladson (Guitarist)
+
+    <br>
+    <br>
+    Logistics:
+    Ajay Kumar
+    Allen Keith Samuel
+    Stephen Shinde
+    <br>
+    <br>
+    Produced By:
+    Ps. M. Sundar Rao Garu ( Grace Gospel Church)
+    <br>
+    Ps. G. Paul Prasad Garu ( The Holy Fire Church)
+    <br>
+    R. Surya Prabha Garu
+    <br>
+    <br>
+    Original Lyrics by:
+    <br>
+    Rammanuchunnadu - D.G.S. Dinakaran Garu
+    <br>
+    Prema Yesuni Prema - Madhu and Benny Garu
+    <br>
+    Idigo Deva - Meesala Guravappa Garu
+    <br>
+    <br>
+    Share yours experiences to us through Facebook and Instagram:
+    <br>
+    <br>
+    Noel Rao:
+    <br>
+    Facebook- https://www.facebook.com/noel.jakson
+    <br>
+    Instagram - Noelrao
+    <br>
+    <br>
+    Bharath Paul Sundar
+    <br>
+    Facebook - https://www.facebook.com/bharathpauls...
+    <br>
+    Instagram - bharathpaulsundar
+    <br>
+    <br>
+    Joel Rao
+    <br>
+    Facebook - https://www.facebook.com/joel.rao.90
+    <br>
+    Instagram - joelrao7
+    <br>
+    <br>
+    These all songs are copyrighted by original song writers.
+    <br>
+    <br>
+    Thank You For Watching and Stay tuned for latest Video songs. Please do SHARE, LIKE and SUBSCRIBE
+    All rights reserved. © 2019
+</p>
+
+<!-- Footer -->
+<footer class="font-small bg-warning mt-5">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+        <a href="https://www.youtube.com/channel/UCJNjj-lnWZBo4BwbEBX3kSg" target="_blank">NBJ Music Productions</a> © 2019 Copyright
+        <p> Created and Maintained by Bharath </p>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<!-- BODY ENDS -->
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+<script src="../https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<script src="../https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="Sharanam/Audio-Player/vpplayer/lib/vpplayer.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#player").vpplayer({
+            src: "../Sharanam/Audio/Sharanam.mp3",
+            trackName: "Sharanam A Telugu Medley | Noel Rao | Bharath Paul Sundar | Joel Rao Ft. Enoch Jagan",
+            preloadMessage: "LOADING...",
+
+            playerColor: "orange",
+            displayColor: "black"
+        });
+    });
+</script>
+</body>
+</html>
